@@ -1,6 +1,6 @@
 {
   "name": "@involvestecnologia/scraper-lib",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A lib to ensure the best config and tools when using puppeteer",
   "main": "index.js",
   "scripts": {
