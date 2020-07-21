@@ -16,7 +16,7 @@
 
 ```js
 
-const scraperLib = require('scraper-lib');
+const scraperLib = require('@involvestecnologia/scraper-lib');
 const puppeteer = scraperLib.newPuppeteer();
 const browser = await puppeteer.launch({ headless: true });
 const page = await browser.newPage();
