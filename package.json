@@ -1,26 +1,33 @@
 {
-  "name": "scraper-lib",
+  "name": "@involvestecnologia/scraper-lib",
   "version": "1.0.0",
-  "description": "A lib to ensure the best config and tools when using puppeteer.",
+  "description": "A lib to ensure the best config and tools when using puppeteer",
   "main": "index.js",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/involvestecnologia/scraper-lib.git"
-  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/involvestecnologia/scraper-lib.git"
   },
   "keywords": [
     "node",
     "npm",
+    "scraper",
     "puppeteer"
   ],
+  "author": "Marcos Morelli",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/involvestecnologia/scraper-lib/issues"
+  },
+  "homepage": "https://github.com/involvestecnologia/scraper-lib#readme",
   "dependencies": {
     "cheerio": "^1.0.0-rc.3",
     "puppeteer": "^5.2.0",
     "puppeteer-extra": "^3.1.12",
     "puppeteer-extra-plugin-adblocker": "2.11.5",
     "puppeteer-extra-plugin-stealth": "^2.4.13"
-  }
+  },
+  "devDependencies": {}
 }
